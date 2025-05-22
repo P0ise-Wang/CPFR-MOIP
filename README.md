@@ -18,7 +18,7 @@ Each dataset contains two folders and several files and including:
   - test_purchase.txt
 ___
 ## Model
-To run the model, first obtain a license for the COPT solver (version 7.1.1), which can be requested at https://www.shanshu.ai/copt. Then, open the terminal and execute `run_thread.py`:
+To run the model, first obtain a license for the COPT solver, which can be requested at https://www.shanshu.ai/copt. Then, open the terminal and execute `run_thread.py`:
 ```
 python model/run_thread.py --dataset dressipy --standard DP
 ```
