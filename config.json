@@ -1,0 +1,46 @@
+{
+    "dressipy_DP": {
+        "baserecK": 500,
+        "cat_ids": "68,-1",
+        "dataset": "dressipy",
+        "k": 10,
+        "lam": 0.2,
+        "model": "MGS",
+        "q": 0.95,
+        "standard": "DP",
+        "tau": "tau"
+    },
+    "dressipy_EO": {
+        "baserecK": 500,
+        "cat_ids": "68,-1",
+        "dataset": "dressipy",
+        "k": 10,
+        "lam": 0.1,
+        "model": "MGS",
+        "q": 0.95,
+        "standard": "EO",
+        "tau": "tau"
+    },
+    "tmall_DP": {
+        "baserecK": 500,
+        "cat_ids": "-1",
+        "dataset": "tmall",
+        "k": 10,
+        "lam": 0.25,
+        "model": "MGS",
+        "q": 0.95,
+        "standard": "DP",
+        "tau": "tau"
+    },
+    "tmall_EO": {
+        "baserecK": 500,
+        "cat_ids": "-1",
+        "dataset": "tmall",
+        "k": 10,
+        "lam": 0.25,
+        "model": "MGS",
+        "q": 0.95,
+        "standard": "EO",
+        "tau": "tau"
+    }
+  }
