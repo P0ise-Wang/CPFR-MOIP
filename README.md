@@ -1,5 +1,5 @@
-# CPR-MOIP 
-A Consistent and Personalized Recommendation framework with Multi-Objective Integer Programming.
+# CPFR-MOIP
+A Consistent and Personalized Fairness Recommendation framework with Multi-Objective Integer Programming.
 ___
 ## Dataset
 The Dressipi dataset used in our experiments are provided in the `data/[Dataset]` folder. Due to GitHub size limitations, The Tmall dataset can be downloaded on https://tianchi.aliyun.com/dataset/42.
