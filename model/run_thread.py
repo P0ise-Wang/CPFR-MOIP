@@ -21,8 +21,8 @@ def read_recommendation_file(file_path):
     with open(file_path, 'r') as f:
         for line in f:
             parts = line.strip().split(' ')
-            session_id = int(parts[0])  # 第一部分是 session_id
-            items = '|'.join(parts[1:])  # 其余部分是推荐列表或分数，用 | 分隔
+            session_id = int(parts[0])
+            items = '|'.join(parts[1:])
             data.append((session_id, items))
     return pd.DataFrame(data, columns=['session_id', 'top_rec'])
 # Load the recommendation scores from a TXT file
@@ -31,8 +31,8 @@ def read_score_file(file_path):
     with open(file_path, 'r') as f:
         for line in f:
             parts = line.strip().split(' ')
-            session_id = int(parts[0])  # 第一部分是 session_id
-            scores = '|'.join(parts[1:])  # 其余部分是推荐分数，用 | 分隔
+            session_id = int(parts[0])
+            scores = '|'.join(parts[1:])
             data.append((session_id, scores))
     return pd.DataFrame(data, columns=['session_id', 'top_rec_score'])
 
