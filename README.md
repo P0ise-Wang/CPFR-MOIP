@@ -1,5 +1,6 @@
 # CPFR-MOIP
 This repository includes data and source code for the CIKM'25 paper:
+
 **Jiayi Guo, Jiangning He, Jiangning He, Chenyan Wang, Xinran Wu, "When Variety Seeking Meets Multi-Sided Recommendation Fairness: A Consistent and Personalized Multi-Objective Optimization Framework," in Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM 2025), Seoul, Korea. November 10-14, 2025.**
 
 ___
