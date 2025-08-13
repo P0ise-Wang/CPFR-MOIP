@@ -3,7 +3,6 @@ This repository includes data and source code for the CIKM'25 paper:
 
 **Jiayi Guo, Jiangning He, Jiangning He, Chenyan Wang, Xinran Wu, "When Variety Seeking Meets Multi-Sided Recommendation Fairness: A Consistent and Personalized Multi-Objective Optimization Framework," in Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM 2025), Seoul, Korea. November 10-14, 2025.**
 
-___
 ## Dataset
 The Dressipi dataset used in our experiments are provided in the `data/[Dataset]` folder. Due to GitHub size limitations, The Tmall dataset can be downloaded on https://tianchi.aliyun.com/dataset/42.
 Each dataset contains one folder and several files and including:
@@ -18,7 +17,7 @@ Each dataset contains one folder and several files and including:
   - valid_purchase.txt
   - test_session.txt
   - test_purchase.txt
-___
+
 ## Model
 To run the model, first obtain a license for the COPT solver, which can be requested at https://www.shanshu.ai/copt. Then, open the terminal and execute `run_thread.py`:
 ```
